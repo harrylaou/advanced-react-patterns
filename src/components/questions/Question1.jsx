@@ -1,6 +1,6 @@
 import React from 'react'
 import withMousePosition from '../patterns/HigherOrderComponents/example/withMousePosition'
-// import withRouter from '../patterns/HigherOrderComponents/exercise/withRouter'
+import withRouter from '../patterns/HigherOrderComponents/exercise/withRouter'
 
 const Question1 = (props, context) => (
   <div>
@@ -54,8 +54,8 @@ const Question1 = (props, context) => (
   </div>
 )
 
-Question1.contextTypes = {
-  router: React.PropTypes.object
-}
+// Question1.contextTypes = {
+//   router: React.PropTypes.object
+// }
 
-export default withMousePosition(Question1)
+export default withRouter(withMousePosition(Question1))
