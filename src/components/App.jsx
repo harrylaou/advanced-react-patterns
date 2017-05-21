@@ -64,11 +64,11 @@ class App extends React.Component {
                  </a>
                </p>
                <hr />
-               <MenuItem link="#1" toggleMenu={ this.toggleMenu }>1. Higher-Order Components</MenuItem>
-               <MenuItem link="#2" toggleMenu={ this.toggleMenu }>2. Render Callback</MenuItem>
-               <MenuItem link="#3" toggleMenu={ this.toggleMenu }>3. Compound Components</MenuItem>
+               <MenuItem link="#1" >1. Higher-Order Components</MenuItem>
+               <MenuItem link="#2" >2. Render Callback</MenuItem>
+               <MenuItem link="#3" >3. Compound Components</MenuItem>
                <Accordion header="I'm an accordion">
-                  <MenuItem link="#4" toggleMenu={ this.toggleMenu }>4. Context</MenuItem>
+                  <MenuItem link="#4">4. Context</MenuItem>
                </Accordion>
                <hr />
                <ul className="list-unstyled">
